@@ -1,0 +1,113 @@
+nav {
+    background: #1c5739;
+    height: 80px;
+    width: 100%;
+}
+
+label.Logo {
+    color: #000;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border: 1px solid #1c5739;
+    border-radius: 12px;
+}
+
+body {
+    background-image: url(Nature.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+    float: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#home {
+    text-decoration: none;
+    list-style: none;
+    width: 70%;
+    color: #000;
+    background:#e9e4e4;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgba(0, 0, 0 ,0.6);
+    border-radius: 12px;
+    text-align: center;
+}
+
+#home h1 {
+    color: #1c5739;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+#home p {
+    color: #000;
+}
+
+#about-us {
+    padding: 60px;
+}
+
+#about-us p {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #1c5739;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+
+
+a.active,a:hover {
+    background: #cdc8c8;
+    color: #1c5739;
+}
+
+footer {
+    background: #1c5739;
+    color: #cdc8c8;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #1c5739;
+}
+
+p {
+    padding: 45px;
+    font-size: 19px;
+}
+
